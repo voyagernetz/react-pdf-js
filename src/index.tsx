@@ -176,7 +176,7 @@ export const usePdf = ({
       const rotation = rotate === 0 ? page.rotate : page.rotate + rotate;
       const dpRatio = window.devicePixelRatio;
       const adjustedScale = scale * dpRatio;
-      const viewport = page.getViewport({ scale: adjustedScale, rotation });
+      const viewport = page.getViewport(adjustedScale);
       const canvasEl = canvasRef.current;
       if (!canvasEl) {
         return;
