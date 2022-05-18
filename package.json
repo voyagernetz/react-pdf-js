@@ -1,10 +1,10 @@
 {
-  "name": "@mikecousins/react-pdf",
+  "name": "react-pdf-js",
   "version": "5.5.1",
   "description": "Simple React component to wrap up PDF.js. The easiest way to render PDFs in your React app.",
-  "author": "mikecousins",
+  "author": "voyagernetz",
   "license": "MIT",
-  "repository": "mikecousins/react-pdf-js",
+  "repository": "voyagernetz/react-pdf-js",
   "main": "dist/index.js",
   "module": "dist/react-pdf.esm.js",
   "typings": "dist/index.d.ts",
